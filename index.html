@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated website</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="home">
+            <div id="nav">
+                <div id="nleft">
+                    <a class="nlink" href="">Home</a>
+                    <a class="nlink" href="">Pricing</a>
+                    <a class="nlink" href="">Products</a>
+                </div>
+
+                <a class="nlink" href="" id="center-a-tag">Shreyians</a>
+
+                <div id="nright">
+                    <a class="nlink" href="">Our Journey</a>
+                </div>
+            </div>
+
+            <div id="hero">
+                <div class="animate2" id="sustain">
+                    <h5>01.</h5>
+                    <h3>Sustainability</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="imgeffect" id="sus-image-wrapper">
+                        <img src="pinkgreenplant.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="animate2" id="ephemeral">
+                    <div id="headings">
+                        <h1>Ephemeral</h1>
+                        <h1>Equilibrium.</h1>
+                    </div>
+                    <div id="ep-img-wrapper">
+                        <img src="pinkplant.jpg" alt="">
+                    </div>
+                    
+                    <p>Committed to Sustainability, eco-friendly choices for a better tomorrow</p>
+                </div>
+
+                <div class="animate2" id="visit">
+                    <div id="circle">
+                        <i class='bx bx-down-arrow-alt'></i>
+                    </div>
+                    <h3>visit our gallery !!</h3>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="motive">
+            <h3>Our Motive</h3>
+            <p>At Shreyians we are deeply committed to Sustainability. We believe in a geener , more sustainable
+                future, <span id="onespan"></span> and it's at the core of everything we do. Our practices are
+                designed with environmental <span id="twospan"></span> reponsibility in mind, from scourcing
+                eco-friendly <span id="threespan"></span> materials to reducing our carboon footprint.</p>
+        </div>
+
+        <div id="pictures">
+            <div id="firstpic">
+                <div class="imgeffect" id="picimg">
+                    <img src="sea.jpg" alt="">
+                </div>
+                <h1>Synergy</h1>
+                <p>Committed to sustainablility eco friendly choices for a better tomorrow.</p>
+            </div>
+
+            <div id="secpic">
+                <div class="imgeffect" id="picimg">
+                    <img src="cloud.jpg" alt="">
+                </div>
+                <h1>Harmony</h1>
+                <p>Committed to sustainablility eco friendly choices for a better tomorrow.</p>
+            </div>
+        </div>
+
+        <div id="banner">
+            <div id="bimg">
+                <img src="bottle.jpg" alt="">
+                <img src="bottle2.jpg" alt="">
+            </div>
+            <div id="btext">
+                <h1>Biodegradable</h1>
+                <h1>Packaging</h1>
+                <p>Committed to sustainablility eco friendly choices for a better tomorrow.</p>
+            </div>
+        </div>
+
+        <div id="future">
+            <video src="back.mp4" autoplay muted loop></video>
+            <div id="ftext">
+                <h2>think of future</h2>
+                <button>join the moment</button>
+            </div>
+        </div>
+    </div>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Scroll Tigger  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <!-- Locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
